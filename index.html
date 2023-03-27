@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <h1 style="text-align:center;">Sign Up</h1>
+    <form action="conn.php" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br>
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email" required><br>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required><br>
+      <label for="password">Comfirm Password:</label>
+      <input type="password" id="password" name="cpassword" required><br>
+
+      <label for="gender">Gender:</label>
+      <select id="gender" name="gender" style="border-radius:   0%;margin: 10px;" required>
+        <option value="NA" >select</option>
+        <option value="M" >Male</option>
+        <option value="F">Female</option>
+        <option value="O">Others</option>
+      </select><br><br>
+
+        <input style="align-items: center;"  type="submit" value="Sign Up"><br><br>
+     
+    </form>
+   
+    <p style="text-align: center;">Already have an account  ... <a href="./login.html"   style="text-decoration:none" ><button style="color:white;background-color: red;border-radius: 10%;">login</button></a></p>
+  </body>
+</html>
