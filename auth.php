@@ -2,6 +2,7 @@
 // validation registration and login details
 session_start();
 $conn=mysqli_connect('localhost','root','','example');
+//here example is your database name
 $email=$_POST['email'];
 $password=$_POST['password'];
 $s="select * from signup where email='$email'&& password='$password'";
