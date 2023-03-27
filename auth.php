@@ -11,7 +11,8 @@ $num=mysqli_num_rows(   $result);
 
 
 if($num==1){
-    header('location:dashboard.html');
+    echo 'login successfull';
+    //header('location:dashboard.html');
 }
 else{
     $count++;
